@@ -1,0 +1,148 @@
+body{}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: cornflowerblue;
+    font-size: 35px;
+}
+a:hover{
+    text-decoration: none;
+    color: firebrick;
+    font-size: 34px;
+}
+a:active{
+    text-decoration: none;
+    color: firebrick;
+    font-size: 32px;
+}
+.description {
+    color: #484343;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: left;
+}
+.specifications {
+    font-size: 17px;
+    color: #119999;
+    font-style: oblique;
+    list-style-image: url(img/post-25-1201787582.png);
+}
+.form{
+    height: auto;
+    width: auto;
+}
+input{
+    color: blueviolet;
+    font-style: italic;
+}
+input{
+  text-transform: capitalize;  
+}
+.email:focus{
+    color: white;
+    font-style: italic;
+    background-color: black
+}
+h2{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+h5{
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+.MainLetter:first-letter:first-child:first-letter{
+    font-size: 200%;
+}
+.MainLetterCatalog:first-line{
+    font-size: 150%;
+    font-style: italic;
+}
+table {
+    border-collapse: collapse;
+}
+td {
+    text-align: center;
+    height: 40px;
+}
+.MainLineOfTable:first-child:first-child{
+    height: 70px;
+}
+.image{
+    outline: 3px solid cornflowerblue;
+    margin-right: 10px; 
+}
+.image:hover{
+    outline: none;
+}
+.footer {
+    height: 100px;
+    background-color:azure;
+    clear: both;
+    border: 2px solid black;
+    position: relative;
+}
+.container{
+    margin:auto;
+    margin-top: 15px;
+    width: 700px;
+    border: 3px solid black
+}
+.catalog {
+    background-color:floralwhite;
+    width:  535px;
+    height: 574px;
+    float: left;
+}
+.header {
+    height: 250px;
+    width:  1000x;
+    background-image: url(img/header2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.header2 {
+    background-image: url(img/HeaderCorner.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 300px;
+    width: 550px;
+    right: 0;
+}
+.headerText{
+    position: absolute;
+    left: 150px;
+}
+.logo{
+    background-image: url(img/Logo.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    height: 155px;
+    width: 155px;
+    right: 550px;
+}
+.buy{
+    outline: 2px solid black;
+    background: #CCC;
+    font-size: 80%;
+}
+.buy:hover {
+    outline: 2px solid red;
+    background: #CCC;
+    font-size: 80%;
+}
+.buy:active{
+    outline: 2px solid red;
+    background: #CCC;
+    font-size: 70%;
+}
